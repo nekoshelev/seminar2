@@ -9,7 +9,7 @@ int Prompt(string message)
     int a = int.Parse(Console.ReadLine());
     return a;
 }
-int n = Prompt("Введите трехзначное число: ");
+int n = Prompt("Введите число: ");
 int free = 10;
 
 if (n > 99)
